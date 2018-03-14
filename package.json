@@ -1,0 +1,23 @@
+{
+  "name": "salary-calculator-node",
+  "version": "1.0.0",
+  "description": "salary calculator in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahbloom/salary-calculator-node.git"
+  },
+  "author": "sarah bloomberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahbloom/salary-calculator-node/issues"
+  },
+  "homepage": "https://github.com/sarahbloom/salary-calculator-node#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
