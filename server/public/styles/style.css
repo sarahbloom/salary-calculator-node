@@ -1,0 +1,44 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #e1e3e8;
+  }
+
+h1{
+  font-family: Impact;
+  font-size: 60px;
+  text-align: center;
+  color: #e3ecf9;
+}
+
+th {
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  background-color: #99b8e8;
+}
+
+tr, td{
+  background-color: #c0d6f7;
+}
+
+#employeeTable, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#header{
+  height:150px;
+  background-color: #4e9191;
+  padding-top: 10px;
+}
+
+#totalMoney{
+  font-family: Impact;
+  color: #4a4f56;
+}
+
+.highlight{
+  background-color:red ;
+}

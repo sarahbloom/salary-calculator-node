@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Salary Calculatro</title>
+    <meta charset="utf-8">
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    </script>
+    <title>Salary Calculator</title>
 </head>
+
 <body>
-    <h1>Salary Calculator</h1>
-    
+    <div id="header">
+        <h1>Salary Calculator</h1>
+        <div>
+            <div class="container">
+
+                <div id="inputs">
+                    <input class='input' id="firstName" type="text" placeholder="First Name">
+                    <input class='input' id="lastName" type="text" placeholder="Last Name">
+                    <input class='input' id="idNumber" type="text" placeholder="ID">
+                    <input class='input' id="jobTitle" type="text" placeholder="Job Title">
+                    <input class='input' id="salary" type="text" placeholder="Salary">
+                    <button id="submit">Submit</button>
+                </div>
+                </br>
+
+                <div id='table'>
+                    <table id="employeeTable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>ID</th>
+                                <th>Job Title</th>
+                                <th>Annual Salary</th>
+                                <th>Remove</th>
+                            </tr>
+                        </thead>
+                        <!-- not commited -->
+                        <tbody id="tableContent">
+                            <!-- intentionally left empty (good to leave notes when intentionally leaving blank) -->
+                        </tbody>
+                        <!-- end not commited -->
+                    </table>
+                </div>
+
+                <div id='total'>
+                    <h2 id="totalMoney"> Total Monthly Payment: </h2>
+                </div>
+
+</body>
+
 </html>
